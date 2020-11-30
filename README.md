@@ -23,6 +23,9 @@ MainController - вспомогательный класс. Переносить
 Пример работы:
 
 2020-11-30 18:09:14.762  INFO 964 --- [nio-8080-exec-4] c.i.l.logging.LoggingControllerHandler   : Time : 2020-11-30T18:09:14.762
+
 2020-11-30 18:09:14.762  INFO 964 --- [nio-8080-exec-4] c.i.l.logging.LoggingControllerHandler   : UserName: test
+
 2020-11-30 18:09:14.762  INFO 964 --- [nio-8080-exec-4] c.i.l.logging.LoggingControllerHandler   : Method : com.is.logging.controllers.MainController.home
+
 2020-11-30 18:09:14.781  INFO 964 --- [nio-8080-exec-4] c.i.l.logging.LoggingControllerHandler   : End controller : com.is.logging.controllers.MainController
