@@ -3,6 +3,7 @@
 Подключение к проекту:
 
 1. Добавить зависимость в pom.xml (если отсутствует):
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
@@ -20,6 +21,7 @@ LoggingControllerHandler - аспект, который работает с ре
 MainController - вспомогательный класс. Переносить его не требуется
 
 Пример работы:
+
 2020-11-30 18:09:14.762  INFO 964 --- [nio-8080-exec-4] c.i.l.logging.LoggingControllerHandler   : Time : 2020-11-30T18:09:14.762
 2020-11-30 18:09:14.762  INFO 964 --- [nio-8080-exec-4] c.i.l.logging.LoggingControllerHandler   : UserName: test
 2020-11-30 18:09:14.762  INFO 964 --- [nio-8080-exec-4] c.i.l.logging.LoggingControllerHandler   : Method : com.is.logging.controllers.MainController.home
